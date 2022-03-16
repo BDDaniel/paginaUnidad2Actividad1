@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Ejercicio 2</title>
+		<link  rel="icon"   href="images/icono.png"/>
+		<script src="src/index.js"></script>
+		<style type="text/css">
+			#contenedor {
+				background-image: url("images/fondo.jpg");
+				position: relative;
+				height: 1200px;
+				width: auto;
+			}
+
+			#encabezado {
+				font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+				font-size: 100px;
+				font-style: normal;
+				text-align: center;
+				line-height: 280px;
+				font-weight: bold;
+				font-variant: normal;
+				background-color: #A64BD3;
+				position: absolute;
+				height: 300px;
+				width: 1845px;
+				left: 20px;
+				top: 20px;
+			}
+
+			#menu {
+				font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+				font-size: 24px;
+				font-style: normal;
+				line-height: normal;
+				font-weight: normal;
+				font-variant: normal;
+				background-color: #093A55;
+				position: absolute;
+				height: 830px;
+				width: 500px;
+				left: 20px;
+				top: 350px;
+			}
+
+			#contenido {
+				font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+				font-size: 24px;
+				font-style: normal;
+				line-height: 50px;
+				text-align: center;
+				font-weight: normal;
+				font-variant: normal;
+				background-color: #155414;
+				position: absolute;
+				height: 830px;
+				width: 1315px;
+				left: 550px;
+				top: 350px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="contenedor">
+	  	 	<div id="encabezado">Ejercicio 2</div>
+		  	<div id="menu">
+				<p style="text-align: center">Ejercicios</p>
+				<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="ejercicio1.html">Ejercicio 1</a></li>
+					<li><a href="ejercicio2.html">Ejercicio 2</a></li>
+					<li><a href="ejercicio3.html">Ejercicio 3</a></li>
+				</ul>
+			</div>
+			<div id="contenido">
+				<p><br>Dado un número N, imprima la sumatoria:<br>
+				Sumatoria = 1^N + 2^N + 3^N + 4^N + ... + N^N<br><br><br><br></p>
+				<script>ejercicio2();</script>
+			</div>
+		</div>
+	</body>
+</html>
