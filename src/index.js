@@ -52,7 +52,7 @@ function ejercicio2() {
 	/*Dado un número N, imprima la sumatoria:
 	Sumatoria = 1^N + 2^N + 3^N + 4^N + ... + N^N*/
 	
-	let N = parseInt(window.prompt("Dado un número N, imprima la sumatoria: Sumatoria = 1^N + 2^N + 3^N + 4^N + ... + N^N\n\n"
+	let N = parseInt(window.prompt("Dado un número N, imprima la sumatoria:\n Sumatoria = 1^N + 2^N + 3^N + 4^N + ... + N^N\n\n"
 		+ "Digite el número N: "));
 	let sum = 0;
 	
